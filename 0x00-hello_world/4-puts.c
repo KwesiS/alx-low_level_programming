@@ -1,7 +1,7 @@
 #include <stdio.h>
 /** 
- * main- use puts to print the string intead of printf
- * Return: ends with 0
+ * main- A program that uses puts to print string
+ * Retuirn:ends with 0
 */
 int main(void)
 

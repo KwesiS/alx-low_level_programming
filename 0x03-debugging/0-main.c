@@ -10,7 +10,7 @@ int main(void)
         int i;
 
         i = 0;
-        putchar(i);
+        psitive_or_negative(i);
 
-        return (0)
+        return (0);
 }

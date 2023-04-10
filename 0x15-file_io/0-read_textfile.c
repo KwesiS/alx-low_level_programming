@@ -2,15 +2,16 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/*
+/**
  * reads text file - a function that reads and prints to POSIX
  *
  * @fd: filename
  *
- * Return: return 0 or num_written
+ * Return: num_written
  */
 
-ssize_t read_textfile(const char *filename, size_t letters) {
+ssize_t read_textfile(const char *filename, size_t letters) 
+{
     if (filename == NULL) {
         return 0;
     }
